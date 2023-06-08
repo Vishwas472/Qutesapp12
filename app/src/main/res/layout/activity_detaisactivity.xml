@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#526D82"
+    android:orientation="vertical"
+    tools:context=".splashscreenActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:src="@drawable/t"/>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Terms &amp; Condition"
+    android:textColor="@color/white"
+    android:textSize="30sp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="80dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The installer agrres that For May use ,and /or host customor confidental information datayou agrree and countious  to sign up"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your data is secure and safe.qutoes is knowing some Knowledsge ."
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You also use Our Paid verison .your payment proccesof trnnsctions deppen on you "
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/chb123"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        android:text="You are agree with condition "/>
+
+
+
+
+</LinearLayout>
